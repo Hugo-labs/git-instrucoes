@@ -3,4 +3,22 @@
 1- Ao criar uma pasta com versionamento 
 	git init
 	
-1- 
+2- Após alguma alteração execute
+	git status
+	
+3- Para adicionar algo para versionamento 
+	git add "nome do arquivo" ou . para selecionar todos
+	
+4- Para comitar
+	git commit -m "uma mensagem"
+	
+5- Para indicar o repositório no qual será enviado
+	git remote add origin "chave ssh ou https"
+	
+6- Para definir a branch antes de enviar
+	git push --set-upstream origin master
+
+7- Para enviar para o github
+	git push
+
+
