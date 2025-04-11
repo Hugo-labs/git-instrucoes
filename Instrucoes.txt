@@ -25,3 +25,8 @@
 
 1- Para conseguir ver o ID das versões anteriores
 	git reflog
+	
+2- Para transitar entre as versões
+	git reset --hard "ID da versão desejada"
+	
+
