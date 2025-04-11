@@ -1,0 +1,6 @@
+-=-=- Instruções para usar o git -=-=-
+
+1- Ao criar uma pasta com versionamento 
+	git init
+	
+1- 
