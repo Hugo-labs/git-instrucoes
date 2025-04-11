@@ -21,4 +21,7 @@
 7- Para enviar para o github
 	git push
 
+-=-=- Transitar entre as versões -=-=-
 
+1- Para conseguir ver o ID das versões anteriores
+	git reflog
