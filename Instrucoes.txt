@@ -29,4 +29,15 @@
 2- Para transitar entre as versões
 	git reset --hard "ID da versão desejada"
 	
+-=-=- Branchs -=-=-
 
+1- Para ver as Branchs que temos no projeto
+	git branch
+	
+2- Para criar uma nova branch
+	git branch "nome da nova branch"
+	
+*Obs, ao usarmos o git branch, notaremos que a branch que estamos usando estará marcada em verde
+
+3- Para alterarmos a branch em que estamos 
+	git checkout "nome da branch que deseja acessar"
