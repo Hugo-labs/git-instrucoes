@@ -44,6 +44,11 @@
 	
 -=-=- Merge -=-=-
 
+*SUPER OBS antes de fazer uma merge na branch principal, é ideal que rode primeiro um pull, para puchar as atualizações da branch principal, e não correr o risco de dar o branch em uma versão desatualizada do código, então, dentro da branch principal
+
+0- Para puxar os dados atualizados a branch principal, antes de fazer um merge
+	git pull
+
 1- Como unir uma branch de teste (o que tem algo novo sendo implementado) a branch principal
 
 *Obs, esteja na branch que irá receber as alterações 
@@ -51,3 +56,13 @@
 	
 2- Para enviar as alterações
 	git push
+	
+-=-=- Como criar e alterar a branch que estamos em uma linha -=-=- 
+
+*Obs, passo a passo do processo que será feito na prática
+
+1- Trazer as atualizações da branch principal para o nosso branch local
+	git pull
+	
+2- Forma para criar uma nova branch e já entrar nela com sómente uma linha
+	git checkout "nome da nova branch" -b "nome da branch que será utilizada como base"
