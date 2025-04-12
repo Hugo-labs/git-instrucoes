@@ -41,3 +41,13 @@
 
 3- Para alterarmos a branch em que estamos 
 	git checkout "nome da branch que deseja acessar"
+	
+-=-=- Merge -=-=-
+
+1- Como unir uma branch de teste (o que tem algo novo sendo implementado) a branch principal
+
+*Obs, esteja na branch que irá receber as alterações 
+	git merge "nome da branch que deseja unificar com a principal"
+	
+2- Para enviar as alterações
+	git push
