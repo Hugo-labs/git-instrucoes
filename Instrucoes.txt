@@ -66,3 +66,20 @@
 	
 2- Forma para criar uma nova branch e já entrar nela com sómente uma linha
 	git checkout "nome da nova branch" -b "nome da branch que será utilizada como base"
+	
+-=-=- Pull Request -=-=-
+
+*Obs, é uma verificação que será feita pelas outras pessoas que também estão no projeto, para avaliar se o código era ser mergiado no código principal ou não após os testes
+
+-=-=- Git ignore -=-=-
+
+*Obs, usado para ignorar pastas, arquivos, o que for, e não mandar para o github por engano e acabar vazando dados sensíveis
+
+1- Para criar uma pasta .gitignore
+	touch .gitignore
+	
+2- Escreva o endereço do arquivo dentro do gitignore gerado
+
+3- Seguir procedimento normal de add . commit -m e push
+
+
